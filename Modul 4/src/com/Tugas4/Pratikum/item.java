@@ -21,8 +21,8 @@ public class item {
         this.namaItem = namaItem;
     }
 
-    public void getDeskripsi(){
-       return namaItem;
+    public String getDeskripsi(){
+       return deskripsi;
     }
 
     public void setDeskripsi(String deskripsi) {
